@@ -111,7 +111,7 @@ Migraciones incluidas en el proyecto, también se puede ejecutar "php artisan mi
 
 Correo: vipcars@gmail.com
 
-Contraseña: Vip2Cars
+Contraseña: 12345678
 
 Rol: Usuario administrador demo
 
