@@ -14,7 +14,7 @@ return new class extends Migration
             $table->string('marca');
             $table->string('modelo');
             $table->date('anio_fabricacion');
-            $table->foreignId('contact_id')->constrained()->onDelete('cascade'); // FK a contacts
+            $table->foreignId('contact_id')->constrained()->onDelete('cascade');
             $table->timestamps();
         });
     }
