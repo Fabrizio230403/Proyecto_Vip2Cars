@@ -15,49 +15,49 @@ Permite registrar, editar, eliminar y visualizar vehículos y sus clientes asoci
 
 1. Clonar el repositorio:
 
-git clone https://github.com/Fabrizio230403/Proyecto_Vip2Cars.git
+    git clone https://github.com/Fabrizio230403/Proyecto_Vip2Cars.git
 
-cd vip2cars-crud
+    cd vip2cars-crud
 
 2. Instalar dependencias PHP:
 
-composer install
+    composer install
 
 3. Copiar el archivo de entorno:
 
-cp .env.example .env
+    cp .env.example .env
 
 4. Configurar .env con tus credenciales de base de datos:
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=vip2cars
-DB_USERNAME=root
-DB_PASSWORD=
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=vip2cars
+    DB_USERNAME=root
+    DB_PASSWORD=
 
 5. Generar clave de aplicación:
 
-php artisan key:generate
+    php artisan key:generate
 
 
 ▶ Puesta en marcha
 
 1. Crear la base de datos:
 
-CREATE DATABASE vip2cars CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+    CREATE DATABASE vip2cars CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 2. Ejecutar migraciones y seeders:
 
-php artisan migrate --seed
+    php artisan migrate --seed
 
 3. Levantar el servidor local:
 
-php artisan serve
+    php artisan serve
 
 4. Acceder al sistema desde el navegador:
 
-http://127.0.0.1:8000
+    http://127.0.0.1:8000
 
 
 🗄 Estructura de la Base de Datos
