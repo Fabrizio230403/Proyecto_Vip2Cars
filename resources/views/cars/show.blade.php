@@ -40,7 +40,7 @@
         </div>
     </div>
 
-    <div class="card shadow-sm border-success">
+    <div class="card shadow-sm border-success mb-4">
         <div class="card-header bg-success text-white">
             <i class="bi bi-person-fill me-2"></i> Datos del Cliente
         </div>
