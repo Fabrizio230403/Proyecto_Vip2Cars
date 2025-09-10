@@ -16,6 +16,7 @@ Permite registrar, editar, eliminar y visualizar vehículos y sus clientes asoci
 1. Clonar el repositorio:
 
 git clone https://github.com/Fabrizio230403/Proyecto_Vip2Cars.git
+
 cd vip2cars-crud
 
 2. Instalar dependencias PHP:
