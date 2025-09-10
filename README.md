@@ -39,6 +39,7 @@ DB_PASSWORD=
 
 php artisan key:generate
 
+
 ▶ Puesta en marcha
 
 1. Crear la base de datos:
@@ -56,6 +57,7 @@ php artisan serve
 4. Acceder al sistema desde el navegador:
 
 http://127.0.0.1:8000
+
 
 🗄 Estructura de la Base de Datos
 
@@ -82,6 +84,10 @@ Tabla cars (vehículos)
 - created_at	TIMESTAMP
 - updated_at	TIMESTAMP
 
-Relaciones: cars.contact_id → contacts.id (N:1 - Muchos a uno)
+
+Relaciones: 
+
+- cars.contact_id → contacts.id (N:1 - Muchos a uno)
+
 
 Migraciones incluidas en el proyecto, también se puede ejecutar "php artisan migrate:fresh" para recrear la BBDD desde cero.
