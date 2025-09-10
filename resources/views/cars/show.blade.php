@@ -28,11 +28,14 @@
                 <div class="col-md-6">
                     <p class="mb-1"><i class="bi bi-calendar-event-fill me-2"></i><strong>Año de Fabricación:</strong> {{ \Carbon\Carbon::parse($car->anio_fabricacion)->format('Y') }}</p>
                 </div>
-                @if($car->imagen)
-                    <div class="mb-3 text-center">
-                        <img src="{{ asset('storage/' . $car->imagen) }}" alt="Imagen del Vehículo" class="img-fluid rounded" style="max-height: 250px;">
-                    </div>
-                @endif
+                @if($car->imagen && file_exists(storage_path('app/public/' . $car->imagen)))
+    <div class="mb-3 text-center">
+        <img src="{{ asset('storage/' . $car->imagen) }}" 
+             alt="Imagen del Vehículo" 
+             class="img-fluid rounded" 
+             style="max-height: 250px;">
+    </div>
+@endif
             </div>
         </div>
     </div>

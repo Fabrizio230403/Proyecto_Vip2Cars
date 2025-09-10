@@ -46,7 +46,6 @@
         </div>
     </div>
 
-    <!-- Aquí agregamos el campo de imagen -->
     <div class="col-md-6">
         <div class="form-floating mb-3">
             <input type="file" name="imagen" class="form-control @error('imagen') is-invalid @enderror">
