@@ -41,6 +41,21 @@ Permite registrar, editar, eliminar y visualizar vehículos y sus clientes asoci
     php artisan key:generate
 
 
+⚡ Instalación de Laravel Breeze (Autenticación)
+
+1. Instalar Breeze:
+
+  composer require laravel/breeze --dev
+
+2. Instalar el scaffolding:
+
+  php artisan breeze:install
+
+3. Compilar assets:
+
+  npm run dev
+
+
 ▶ Puesta en marcha
 
 1. Crear la base de datos:
@@ -90,5 +105,15 @@ Relaciones:
 
 - cars.contact_id → contacts.id (N:1 - Muchos a uno)
 
-
 Migraciones incluidas en el proyecto, también se puede ejecutar "php artisan migrate:fresh" para recrear la BBDD desde cero.
+
+🔑 Usuario Demo
+
+Correo: vipcars@gmail.com
+
+Contraseña: Vip2Cars
+
+Rol: Usuario administrador demo
+
+Este usuario puede acceder a todas las funcionalidades del sistema
+
